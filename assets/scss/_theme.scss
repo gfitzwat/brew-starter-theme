@@ -1,0 +1,17 @@
+/* Just related to this specific theme */
+#logo {max-width: 100%;margin: 0 auto; box-sizing: border-box; max-width: 500px;}
+#logo img{  height: auto; width: 100%; max-height: 100%; float: left;}
+aside{padding-top: 10%;}
+section h1, h2,h3 {color: $orange;font-family: "Lucida Bright",Georgia,serif;}
+section h1{font-size:3em;}
+.flexy {display: flex; flex-flow: row wrap;margin: 0; padding: 0; justify-content: space-between; align-content: space-between;}
+.flexy li{max-width: 300px; height: auto; display: block;list-style: none; margin:0 0 1em ; padding: 1em; box-sizing: border-box; flex:1 auto; align-self: flex-start;}
+.flexy img{width: 100%; border-bottom: 5px solid $dark-slate-blue}
+h3{margin:1em 0 .25em;}
+h3 + p{margin: 0;}
+     @media (max-width: 960px) {
+  aside{ text-align: center; }
+      #logo { margin: 10px auto; float: none; max-width: 500px}
+      .flexy li{max-width: 50%; min-width: 300px;}
+     }
+figure{margin: 0;padding:0;}

@@ -1,0 +1,36 @@
+$background-light: #fff;
+
+
+/* Robert Earl Keen Color Scheme */
+$dark-gray: #333;
+$gray: #7F7F7F;
+$med-gray: #BFBFBF;
+$light-gray: #E5E5E5;
+
+
+/* 0range */
+$dark-slate-blue:#2B3A42;
+$slate-blue:#3F5765;
+$light-slate-blue:#BDD4DE;
+$orange:#FF530D;
+$alert:red;
+
+
+$a-tags: 'a, a:active, a:hover, a:visited, a:focus';
+$a-tags-hover: 'a:active, a:hover';
+
+#{$a-tags} {
+  color: $slate-blue;
+  text-decoration: none;
+}
+#{$a-tags-hover} {
+  color: $orange;
+}
+
+
+nav a, nav a:visited, nav a:active, nav a:focus{color:#fff;}
+nav a:hover{color: red;}
+
+
+#wrapper {  background: #fff;}
+aside { background: $dark-slate-blue;}

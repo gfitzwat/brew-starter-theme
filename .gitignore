@@ -30,3 +30,4 @@ brew-baby.bbprojectd/Unix Worksheet.worksheet
 *.bbprojectsettings
 
 *.bbprojectsettings
+*node_modules
